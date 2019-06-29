@@ -3,12 +3,12 @@ c = int
 
 def changToFah(c):
 	c = int(c)
-	f = c*9/5+32
+	f = c * 9 / 5 + 32
 	print('攝氏溫度', c,'度','轉換成華氏溫度為：', f, '度')
 
 def changeToCelsius(f):
 	f = int(f)
-	c = (f-32)*5/9
+	c = (f - 32) * 5 / 9
 	print('華氏溫度', f, '度', '轉換成攝氏溫度為：', c, '度')
 
 
