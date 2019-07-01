@@ -1,5 +1,5 @@
 password = 'a123456'
-checkPassword = 3
+checkPasswordTimes = 3
 
 while True:
 	enterPassword = input('請輸入密碼： ')
@@ -7,9 +7,9 @@ while True:
 		print('登入成功')
 		break
 	else:
-		if checkPassword > 1:
-			checkPassword = checkPassword - 1
-			print('密碼輸入錯誤，還有', checkPassword, '次機會')
+		if checkPasswordTimes > 1:
+			checkPasswordTimes = checkPasswordTimes - 1
+			print('密碼輸入錯誤，還有', checkPasswordTimes, '次機會')
 		else:
 			print('密碼輸入錯誤達三次，帳號已鎖定。')
 			break
